@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+license="MIT"
+
+[[mods]]
+modId="foodeffects"
+version="${file.jarVersion}"
+displayName="FoodEffects"
+
+credits=""
+
+authors="SeraphJACK"
+
+description="A mod that allow you to modify the effects of foods."

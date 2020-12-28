@@ -1,0 +1,16 @@
+Thumbs.db
+/run
+/out
+/eclipse
+/build
+/.gradle
+*.iml
+*.ipr
+*.iws
+/bin
+.classpath
+.project
+/.settings
+*.launch
+/.idea
+/.vscode
