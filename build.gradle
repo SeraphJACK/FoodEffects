@@ -29,7 +29,7 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.console.level', 'info'
             mods {
-                nickname {
+                foodeffects {
                     source sourceSets.main
                 }
             }
@@ -39,7 +39,7 @@ minecraft {
             workingDirectory project.file('run_server')
             property 'forge.logging.console.level', 'info'
             mods {
-                nickname {
+                foodeffects {
                     source sourceSets.main
                 }
             }
@@ -48,9 +48,9 @@ minecraft {
         data {
             workingDirectory project.file('run')
             property 'forge.logging.console.level', 'info'
-            args '--mod', 'nickname', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'foodeffects', '--all', '--output', file('src/generated/resources/')
             mods {
-                nickname {
+                foodeffects {
                     source sourceSets.main
                 }
             }
